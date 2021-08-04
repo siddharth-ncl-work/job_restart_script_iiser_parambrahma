@@ -15,11 +15,11 @@ def qFlag(job_name):
     q_flag='not_running'
   return q_flag
 
-def searchDirFlag(job_dir_path):
+def searchDirFlag(search_dir_path):
   search_dir_flag=None
-  if not os.path.isdir(job_dir_path):
+  if not os.path.isdir(search_dir_path):
     return search_dir_flag
-  for file in os.listdir(job_dir_path):
+  for file in os.listdir(search_dir_path):
     if 'GEO_OPT_'in file:
       search_dir_flag=file.split('_')[-1]
       break
@@ -28,15 +28,15 @@ def searchDirFlag(job_dir_path):
 def restartJob(restart_script_path):
   subprocess.Popen(['qsub',restart_script_path])
 
-def checkJob(job_name,job_dir_path,restart_script_path):
+def checkJob(job_name,search_dir_path,restart_script_path):
   stop_flag=False
   q_flag=qFlag(job_name)
-  search_dir_flag=searchDirFlag(job_dir_path)
+  search_dir_flag=searchDirFlag(search_dir_path)
   print 'Job:{0} is {1} GEO_OPT_{2}'.format(job_name,q_flag,search_dir_flag)
   if q_flag=='not_running':
     stop_flag=True
     if search_dir_flag==None:
-      print 'search directory: {0} is not present'.format(job_dir_path)
+      print 'search directory: {0} is not present'.format(search_dir_path)
     elif search_dir_flag.lower()=='running':
       restartJob(restart_script_path)
       stop_flag=False
@@ -49,7 +49,7 @@ def checkJob(job_name,job_dir_path,restart_script_path):
   elif q_flag=='running':
     stop_flag=False
     if search_dir_flag==None:
-      print 'search directory: {0} is not present'.format(job_dir_path)
+      print 'search directory: {0} is not present'.format(search_dir_path)
     elif search_dir_flag.lower()=='running':
       pass
     elif search_dir_flag.lower()=='converged':
@@ -63,7 +63,7 @@ def checkJob(job_name,job_dir_path,restart_script_path):
 start_time=time.time()
 print(sys.argv)
 job_name=sys.argv[1]
-job_dir_path='../{0}'.format(job_name)
+search_dir_path='../{0}'.format(job_name)
 restart_script_path=sys.argv[2]
 interval=1
 stop_flag=False
@@ -71,7 +71,7 @@ while not stop_flag:
   time.sleep(interval)
   elapsed_time=round(time.time()-start_time,2)
   print 'Time elapsed {0} seconds'.format(elapsed_time)
-  stop_flag=checkJob(job_name,job_dir_path,restart_script_path)
+  stop_flag=checkJob(job_name,search_dir_path,restart_script_path)
   if stop_flag:
     print('Terminating the programme')
 
