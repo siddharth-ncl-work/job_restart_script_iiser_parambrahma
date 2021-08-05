@@ -15,9 +15,11 @@ def qFlag(job_name):
     q_flag='not_running'
   return q_flag
 
-def jobDirFlag(job_dir_path,job_id):
+def jobDirFlag(job_dir_path,job_id,job_name):
   if not os.path.isdir(job_dir_path):
-    return 'dir_not_present'
+    job_dir_path='../{0}'.format(job_name)
+    if not os.path.isdir(job_dir_path):
+      return 'dir_not_present'
   if not os.listdir(job_dir_path):
     return 'dir_empty'
   dscf_file_path=os.path.join(job_dir_path,'dscf.out')
@@ -32,7 +34,11 @@ def jobDirFlag(job_dir_path,job_id):
   return 'job_dir_flag_not_defined'
 
 def stderrFlag(job_id):
-  stderr_file_path='../sp_slurm_script.e{0}'.format(job_id)
+  stderr_file_name=None
+  for file_name in os.listdir('..'):
+    if 'e{0}'.format(job_id) in file_name:
+      stderr_file_name=file_name
+  stderr_file_path='../{0}'.format(stderr_file_name)
   stderr_file=open(stderr_file_path,'r')
   stderr=stderr_file.read()
   stderr_file.close()
@@ -48,9 +54,9 @@ def restartJob(restart_script_name):
 def checkJob(job_name,job_dir_path,restart_script_name,job_id):
   stop_flag=False
   q_flag=qFlag(job_name)
-  job_dir_flag=jobDirFlag(job_dir_path,job_id)
-  print 'Job:{0} is {1} dscf.out {2}'.format(job_name,q_flag,job_dir_flag)
+  job_dir_flag=jobDirFlag(job_dir_path,job_id,job_name)
   if q_flag=='not_running':
+    print 'Job:{0} is {1} dscf.out {2}'.format(job_name,q_flag,job_dir_flag)
     stop_flag=True
     if job_dir_flag=='dir_not_present':
       print 'job directory: {0} is not present'.format(job_dir_path)
@@ -70,24 +76,10 @@ def checkJob(job_name,job_dir_path,restart_script_name,job_id):
       print 'unknown job_dir_flag {0}'.format(job_dir_flag)
   elif q_flag=='running':
     stop_flag=False
-    """
-    if job_dir_flag=='dir_not_present':
-      print 'search directory: {0} is not present'.format(job_dir_path)
-    elif job_dir_flag=='dir_empty':
-      print 'job directory: {0} is empty'.format(job_dir_path)
-    elif job_dir_flag is None:
-      print 'File dscf.out is not present'
-    elif job_dir_flag.lower()=='running':
-      pass
-    elif job_dir_flag.lower()=='converged':
+    print 'Job:{0} is {1}'.format(job_name,q_flag)
+    if job_dir_flag.lower()=='converged':
       print 'JOB FINISHED'
       stop_flag=True
-    elif job_dir_flag.lower()=='failed':
-      print 'JOB ERROR: please check input and output files and resubmit'
-      stop_flag=True
-    else:
-      print 'unknown job_dir_flag {}'.format(job_dir_flag)
-    """
   return stop_flag
 
 start_time=time.time()
