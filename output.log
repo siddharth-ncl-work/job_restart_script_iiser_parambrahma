@@ -1,695 +1,2465 @@
-['_restart.py', '853010', 'test1', 'restart_slurm_script']
+['_restart.py', '853162', 'test1', '0restart_slurm_script', '1000']
 Time elapsed 1.0 seconds
-Job:test1-853010 is not_running dscf.out need_restart
-RESTARTING THE JOB
-job_id=853124, stderr_dir_path=.
-Time elapsed 2.33 seconds
-Job:test1-853124 is running
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 0
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 2.27 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 1
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
 Time elapsed 3.53 seconds
-Job:test1-853124 is running
-Time elapsed 4.72 seconds
-Job:test1-853124 is running
-Time elapsed 5.91 seconds
-Job:test1-853124 is running
-Time elapsed 7.1 seconds
-Job:test1-853124 is running
-Time elapsed 8.29 seconds
-Job:test1-853124 is running
-Time elapsed 9.48 seconds
-Job:test1-853124 is running
-Time elapsed 10.68 seconds
-Job:test1-853124 is running
-Time elapsed 11.88 seconds
-Job:test1-853124 is running
-Time elapsed 13.07 seconds
-Job:test1-853124 is running
-Time elapsed 14.26 seconds
-Job:test1-853124 is running
-Time elapsed 15.45 seconds
-Job:test1-853124 is running
-Time elapsed 16.64 seconds
-Job:test1-853124 is running
-Time elapsed 17.78 seconds
-Job:test1-853124 is running
-Time elapsed 18.97 seconds
-Job:test1-853124 is running
-Time elapsed 20.16 seconds
-Job:test1-853124 is running
-Time elapsed 21.34 seconds
-Job:test1-853124 is running
-Time elapsed 22.53 seconds
-Job:test1-853124 is running
-Time elapsed 23.72 seconds
-Job:test1-853124 is running
-Time elapsed 24.91 seconds
-Job:test1-853124 is running
-Time elapsed 26.11 seconds
-Job:test1-853124 is running
-Time elapsed 27.84 seconds
-Job:test1-853124 is running
-Time elapsed 29.03 seconds
-Job:test1-853124 is running
-Time elapsed 30.23 seconds
-Job:test1-853124 is running
-Time elapsed 31.42 seconds
-Job:test1-853124 is running
-Time elapsed 32.63 seconds
-Job:test1-853124 is running
-Time elapsed 33.78 seconds
-Job:test1-853124 is running
-Time elapsed 34.9 seconds
-Job:test1-853124 is running
-Time elapsed 36.04 seconds
-Job:test1-853124 is running
-Time elapsed 37.17 seconds
-Job:test1-853124 is running
-Time elapsed 38.36 seconds
-Job:test1-853124 is running
-Time elapsed 39.5 seconds
-Job:test1-853124 is running
-Time elapsed 40.69 seconds
-Job:test1-853124 is running
-Time elapsed 41.88 seconds
-Job:test1-853124 is running
-Time elapsed 43.07 seconds
-Job:test1-853124 is running
-Time elapsed 44.22 seconds
-Job:test1-853124 is running
-Time elapsed 45.43 seconds
-Job:test1-853124 is running
-Time elapsed 46.62 seconds
-Job:test1-853124 is running
-Time elapsed 47.8 seconds
-Job:test1-853124 is running
-Time elapsed 49.0 seconds
-Job:test1-853124 is running
-Time elapsed 50.19 seconds
-Job:test1-853124 is running
-Time elapsed 51.38 seconds
-Job:test1-853124 is running
-Time elapsed 52.5 seconds
-Job:test1-853124 is running
-Time elapsed 53.68 seconds
-Job:test1-853124 is running
-Time elapsed 54.84 seconds
-Job:test1-853124 is running
-Time elapsed 55.99 seconds
-Job:test1-853124 is running
-Time elapsed 57.18 seconds
-Job:test1-853124 is running
-Time elapsed 59.25 seconds
-Job:test1-853124 is running
-Time elapsed 60.45 seconds
-Job:test1-853124 is running
-Time elapsed 61.64 seconds
-Job:test1-853124 is running
-Time elapsed 62.84 seconds
-Job:test1-853124 is running
-Time elapsed 64.02 seconds
-Job:test1-853124 is running
-Time elapsed 65.2 seconds
-Job:test1-853124 is running
-Time elapsed 66.4 seconds
-Job:test1-853124 is running
-Time elapsed 67.59 seconds
-Job:test1-853124 is running
-Time elapsed 68.76 seconds
-Job:test1-853124 is running
-Time elapsed 69.93 seconds
-Job:test1-853124 is running
-Time elapsed 71.12 seconds
-Job:test1-853124 is running
-Time elapsed 72.32 seconds
-Job:test1-853124 is running
-Time elapsed 73.47 seconds
-Job:test1-853124 is running
-Time elapsed 74.64 seconds
-Job:test1-853124 is running
-Time elapsed 75.83 seconds
-Job:test1-853124 is running
-Time elapsed 76.95 seconds
-Job:test1-853124 is running
-Time elapsed 78.11 seconds
-Job:test1-853124 is running
-Time elapsed 79.3 seconds
-Job:test1-853124 is running
-Time elapsed 80.44 seconds
-Job:test1-853124 is running
-Time elapsed 81.63 seconds
-Job:test1-853124 is running
-Time elapsed 82.82 seconds
-Job:test1-853124 is running
-Time elapsed 84.01 seconds
-Job:test1-853124 is running
-Time elapsed 85.2 seconds
-Job:test1-853124 is running
-Time elapsed 86.38 seconds
-Job:test1-853124 is running
-Time elapsed 87.57 seconds
-Job:test1-853124 is running
-Time elapsed 88.7 seconds
-Job:test1-853124 is running
-Time elapsed 90.72 seconds
-Job:test1-853124 is running
-Time elapsed 91.87 seconds
-Job:test1-853124 is running
-Time elapsed 93.02 seconds
-Job:test1-853124 is running
-Time elapsed 94.22 seconds
-Job:test1-853124 is running
-Time elapsed 95.41 seconds
-Job:test1-853124 is running
-Time elapsed 96.55 seconds
-Job:test1-853124 is running
-Time elapsed 97.74 seconds
-Job:test1-853124 is running
-Time elapsed 98.9 seconds
-Job:test1-853124 is running
-Time elapsed 100.09 seconds
-Job:test1-853124 is running
-Time elapsed 101.19 seconds
-Job:test1-853124 is running
-Time elapsed 102.28 seconds
-Job:test1-853124 is running
-Time elapsed 103.39 seconds
-Job:test1-853124 is running
-Time elapsed 104.49 seconds
-Job:test1-853124 is running
-Time elapsed 105.69 seconds
-Job:test1-853124 is running
-Time elapsed 106.87 seconds
-Job:test1-853124 is running
-Time elapsed 108.06 seconds
-Job:test1-853124 is running
-Time elapsed 109.2 seconds
-Job:test1-853124 is running
-Time elapsed 110.31 seconds
-Job:test1-853124 is running
-Time elapsed 111.4 seconds
-Job:test1-853124 is running
-Time elapsed 112.59 seconds
-Job:test1-853124 is running
-Time elapsed 113.68 seconds
-Job:test1-853124 is running
-Time elapsed 114.86 seconds
-Job:test1-853124 is running
-Time elapsed 115.96 seconds
-Job:test1-853124 is running
-Time elapsed 117.06 seconds
-Job:test1-853124 is running
-Time elapsed 118.25 seconds
-Job:test1-853124 is running
-Time elapsed 119.35 seconds
-Job:test1-853124 is running
-Time elapsed 120.49 seconds
-Job:test1-853124 is running
-Time elapsed 122.18 seconds
-Job:test1-853124 is running
-Time elapsed 123.37 seconds
-Job:test1-853124 is running
-Time elapsed 124.55 seconds
-Job:test1-853124 is running
-Time elapsed 125.73 seconds
-Job:test1-853124 is running
-Time elapsed 126.91 seconds
-Job:test1-853124 is running
-Time elapsed 128.04 seconds
-Job:test1-853124 is running
-Time elapsed 129.18 seconds
-Job:test1-853124 is running
-Time elapsed 130.29 seconds
-Job:test1-853124 is running
-Time elapsed 131.48 seconds
-Job:test1-853124 is running
-Time elapsed 132.58 seconds
-Job:test1-853124 is running
-Time elapsed 133.68 seconds
-Job:test1-853124 is running
-Time elapsed 134.79 seconds
-Job:test1-853124 is running
-Time elapsed 135.89 seconds
-Job:test1-853124 is running
-Time elapsed 137.01 seconds
-Job:test1-853124 is running
-Time elapsed 138.14 seconds
-Job:test1-853124 is running
-Time elapsed 139.33 seconds
-Job:test1-853124 is running
-Time elapsed 140.45 seconds
-Job:test1-853124 is running
-Time elapsed 141.63 seconds
-Job:test1-853124 is running
-Time elapsed 142.79 seconds
-Job:test1-853124 is running
-Time elapsed 143.99 seconds
-Job:test1-853124 is running
-Time elapsed 145.09 seconds
-Job:test1-853124 is running
-Time elapsed 146.2 seconds
-Job:test1-853124 is running
-Time elapsed 147.31 seconds
-Job:test1-853124 is running
-Time elapsed 148.41 seconds
-Job:test1-853124 is running
-Time elapsed 149.52 seconds
-Job:test1-853124 is running
-Time elapsed 150.71 seconds
-Job:test1-853124 is running
-Time elapsed 151.86 seconds
-Job:test1-853124 is running
-Time elapsed 153.66 seconds
-Job:test1-853124 is running
-Time elapsed 154.83 seconds
-Job:test1-853124 is running
-Time elapsed 155.95 seconds
-Job:test1-853124 is running
-Time elapsed 157.05 seconds
-Job:test1-853124 is running
-Time elapsed 158.23 seconds
-Job:test1-853124 is running
-Time elapsed 159.33 seconds
-Job:test1-853124 is running
-Time elapsed 160.45 seconds
-Job:test1-853124 is running
-Time elapsed 161.63 seconds
-Job:test1-853124 is running
-Time elapsed 162.72 seconds
-Job:test1-853124 is running
-Time elapsed 163.82 seconds
-Job:test1-853124 is running
-Time elapsed 164.95 seconds
-Job:test1-853124 is running
-Time elapsed 166.05 seconds
-Job:test1-853124 is running
-Time elapsed 167.24 seconds
-Job:test1-853124 is running
-Time elapsed 168.36 seconds
-Job:test1-853124 is running
-Time elapsed 169.54 seconds
-Job:test1-853124 is running
-Time elapsed 170.67 seconds
-Job:test1-853124 is running
-Time elapsed 171.78 seconds
-Job:test1-853124 is running
-Time elapsed 172.98 seconds
-Job:test1-853124 is running
-Time elapsed 174.17 seconds
-Job:test1-853124 is running
-Time elapsed 175.35 seconds
-Job:test1-853124 is running
-Time elapsed 176.44 seconds
-Job:test1-853124 is running
-Time elapsed 177.53 seconds
-Job:test1-853124 is running
-Time elapsed 178.62 seconds
-Job:test1-853124 is running
-Time elapsed 179.76 seconds
-Job:test1-853124 is running
-Time elapsed 180.87 seconds
-Job:test1-853124 is running
-Time elapsed 181.96 seconds
-Job:test1-853124 is running
-Time elapsed 183.07 seconds
-Job:test1-853124 is running
-Time elapsed 185.19 seconds
-Job:test1-853124 is running
-Time elapsed 186.35 seconds
-Job:test1-853124 is running
-Time elapsed 187.44 seconds
-Job:test1-853124 is running
-Time elapsed 188.55 seconds
-Job:test1-853124 is running
-Time elapsed 189.74 seconds
-Job:test1-853124 is running
-Time elapsed 190.89 seconds
-Job:test1-853124 is running
-Time elapsed 192.03 seconds
-Job:test1-853124 is running
-Time elapsed 193.12 seconds
-Job:test1-853124 is running
-Time elapsed 194.29 seconds
-Job:test1-853124 is running
-Time elapsed 195.44 seconds
-Job:test1-853124 is running
-Time elapsed 196.55 seconds
-Job:test1-853124 is running
-Time elapsed 197.74 seconds
-Job:test1-853124 is running
-Time elapsed 198.86 seconds
-Job:test1-853124 is running
-Time elapsed 200.04 seconds
-Job:test1-853124 is running
-Time elapsed 201.22 seconds
-Job:test1-853124 is running
-Time elapsed 202.32 seconds
-Job:test1-853124 is running
-Time elapsed 203.5 seconds
-Job:test1-853124 is running
-Time elapsed 204.61 seconds
-Job:test1-853124 is running
-Time elapsed 205.72 seconds
-Job:test1-853124 is running
-Time elapsed 206.88 seconds
-Job:test1-853124 is running
-Time elapsed 207.99 seconds
-Job:test1-853124 is running
-Time elapsed 209.09 seconds
-Job:test1-853124 is running
-Time elapsed 210.18 seconds
-Job:test1-853124 is running
-Time elapsed 211.36 seconds
-Job:test1-853124 is running
-Time elapsed 212.55 seconds
-Job:test1-853124 is running
-Time elapsed 213.69 seconds
-Job:test1-853124 is running
-Time elapsed 214.85 seconds
-Job:test1-853124 is running
-Time elapsed 216.47 seconds
-Job:test1-853124 is running
-Time elapsed 217.62 seconds
-Job:test1-853124 is running
-Time elapsed 218.71 seconds
-Job:test1-853124 is running
-Time elapsed 219.82 seconds
-Job:test1-853124 is running
-Time elapsed 221.0 seconds
-Job:test1-853124 is running
-Time elapsed 222.16 seconds
-Job:test1-853124 is running
-Time elapsed 223.3 seconds
-Job:test1-853124 is running
-Time elapsed 224.39 seconds
-Job:test1-853124 is running
-Time elapsed 225.48 seconds
-Job:test1-853124 is running
-Time elapsed 226.61 seconds
-Job:test1-853124 is running
-Time elapsed 227.8 seconds
-Job:test1-853124 is running
-Time elapsed 228.92 seconds
-Job:test1-853124 is running
-Time elapsed 230.11 seconds
-Job:test1-853124 is running
-Time elapsed 231.24 seconds
-Job:test1-853124 is running
-Time elapsed 232.35 seconds
-Job:test1-853124 is running
-Time elapsed 233.44 seconds
-Job:test1-853124 is running
-Time elapsed 234.55 seconds
-Job:test1-853124 is running
-Time elapsed 235.69 seconds
-Job:test1-853124 is running
-Time elapsed 236.87 seconds
-Job:test1-853124 is running
-Time elapsed 237.96 seconds
-Job:test1-853124 is running
-Time elapsed 239.12 seconds
-Job:test1-853124 is running
-Time elapsed 240.26 seconds
-Job:test1-853124 is running
-Time elapsed 241.38 seconds
-Job:test1-853124 is running
-Time elapsed 242.47 seconds
-Job:test1-853124 is running
-Time elapsed 243.62 seconds
-Job:test1-853124 is running
-Time elapsed 244.75 seconds
-Job:test1-853124 is running
-Time elapsed 245.9 seconds
-Job:test1-853124 is running
-Time elapsed 247.48 seconds
-Job:test1-853124 is running
-Time elapsed 248.64 seconds
-Job:test1-853124 is running
-Time elapsed 249.82 seconds
-Job:test1-853124 is running
-Time elapsed 251.01 seconds
-Job:test1-853124 is running
-Time elapsed 252.16 seconds
-Job:test1-853124 is running
-Time elapsed 253.29 seconds
-Job:test1-853124 is running
-Time elapsed 254.38 seconds
-Job:test1-853124 is running
-Time elapsed 255.49 seconds
-Job:test1-853124 is running
-Time elapsed 256.64 seconds
-Job:test1-853124 is running
-Time elapsed 257.76 seconds
-Job:test1-853124 is running
-Time elapsed 258.87 seconds
-Job:test1-853124 is running
-Time elapsed 260.05 seconds
-Job:test1-853124 is running
-Time elapsed 261.18 seconds
-Job:test1-853124 is running
-Time elapsed 262.28 seconds
-Job:test1-853124 is running
-Time elapsed 263.4 seconds
-Job:test1-853124 is running
-Time elapsed 264.59 seconds
-Job:test1-853124 is running
-Time elapsed 265.69 seconds
-Job:test1-853124 is running
-Time elapsed 266.82 seconds
-Job:test1-853124 is running
-Time elapsed 267.92 seconds
-Job:test1-853124 is running
-Time elapsed 269.02 seconds
-Job:test1-853124 is running
-Time elapsed 270.21 seconds
-Job:test1-853124 is running
-Time elapsed 271.4 seconds
-Job:test1-853124 is running
-Time elapsed 272.53 seconds
-Job:test1-853124 is running
-Time elapsed 273.64 seconds
-Job:test1-853124 is running
-Time elapsed 274.83 seconds
-Job:test1-853124 is running
-Time elapsed 276.02 seconds
-Job:test1-853124 is running
-Time elapsed 277.22 seconds
-Job:test1-853124 is running
-Time elapsed 278.48 seconds
-Job:test1-853124 is running
-Time elapsed 279.66 seconds
-Job:test1-853124 is running
-Time elapsed 280.8 seconds
-Job:test1-853124 is running
-Time elapsed 281.93 seconds
-Job:test1-853124 is running
-Time elapsed 283.04 seconds
-Job:test1-853124 is running
-Time elapsed 284.13 seconds
-Job:test1-853124 is running
-Time elapsed 285.26 seconds
-Job:test1-853124 is running
-Time elapsed 286.35 seconds
-Job:test1-853124 is running
-Time elapsed 287.54 seconds
-Job:test1-853124 is running
-Time elapsed 288.74 seconds
-Job:test1-853124 is running
-Time elapsed 289.93 seconds
-Job:test1-853124 is running
-Time elapsed 291.13 seconds
-Job:test1-853124 is running
-Time elapsed 292.32 seconds
-Job:test1-853124 is running
-Time elapsed 293.51 seconds
-Job:test1-853124 is running
-Time elapsed 294.7 seconds
-Job:test1-853124 is running
-Time elapsed 295.9 seconds
-Job:test1-853124 is running
-Time elapsed 297.05 seconds
-Job:test1-853124 is running
-Time elapsed 298.24 seconds
-Job:test1-853124 is running
-Time elapsed 299.43 seconds
-Job:test1-853124 is running
-Time elapsed 300.6 seconds
-Job:test1-853124 is running
-Time elapsed 301.79 seconds
-Job:test1-853124 is running
-Time elapsed 302.98 seconds
-Job:test1-853124 is running
-Time elapsed 304.17 seconds
-Job:test1-853124 is running
-Time elapsed 305.36 seconds
-Job:test1-853124 is running
-Time elapsed 306.52 seconds
-Job:test1-853124 is running
-Time elapsed 307.72 seconds
-Job:test1-853124 is running
-Time elapsed 309.49 seconds
-Job:test1-853124 is running
-Time elapsed 310.68 seconds
-Job:test1-853124 is running
-Time elapsed 311.88 seconds
-Job:test1-853124 is running
-Time elapsed 313.08 seconds
-Job:test1-853124 is running
-Time elapsed 314.26 seconds
-Job:test1-853124 is running
-Time elapsed 315.45 seconds
-Job:test1-853124 is running
-Time elapsed 316.61 seconds
-Job:test1-853124 is running
-Time elapsed 317.78 seconds
-Job:test1-853124 is running
-Time elapsed 318.93 seconds
-Job:test1-853124 is running
-Time elapsed 320.12 seconds
-Job:test1-853124 is running
-Time elapsed 321.31 seconds
-Job:test1-853124 is running
-Time elapsed 322.5 seconds
-Job:test1-853124 is running
-Time elapsed 323.7 seconds
-Job:test1-853124 is running
-Time elapsed 324.89 seconds
-Job:test1-853124 is running
-Time elapsed 326.08 seconds
-Job:test1-853124 is running
-Time elapsed 327.27 seconds
-Job:test1-853124 is running
-Time elapsed 328.46 seconds
-Job:test1-853124 is running
-Time elapsed 329.65 seconds
-Job:test1-853124 is running
-Time elapsed 330.84 seconds
-Job:test1-853124 is running
-Time elapsed 332.03 seconds
-Job:test1-853124 is running
-Time elapsed 333.23 seconds
-Job:test1-853124 is running
-Time elapsed 334.42 seconds
-Job:test1-853124 is running
-Time elapsed 335.6 seconds
-Job:test1-853124 is running
-Time elapsed 336.79 seconds
-Job:test1-853124 is running
-Time elapsed 337.98 seconds
-Job:test1-853124 is running
-Time elapsed 339.18 seconds
-Job:test1-853124 is running
-Time elapsed 340.83 seconds
-Job:test1-853124 is running
-Time elapsed 342.01 seconds
-Job:test1-853124 is running
-Time elapsed 343.21 seconds
-Job:test1-853124 is running
-Time elapsed 344.4 seconds
-Job:test1-853124 is running
-Time elapsed 345.6 seconds
-Job:test1-853124 is running
-Time elapsed 346.79 seconds
-Job:test1-853124 is running
-Time elapsed 347.95 seconds
-Job:test1-853124 is running
-Time elapsed 349.1 seconds
-Job:test1-853124 is running
-Time elapsed 350.23 seconds
-Job:test1-853124 is running
-Time elapsed 351.43 seconds
-Job:test1-853124 is running
-Time elapsed 352.62 seconds
-Job:test1-853124 is running
-Time elapsed 353.81 seconds
-Job:test1-853124 is running
-Time elapsed 355.0 seconds
-Job:test1-853124 is running
-Time elapsed 356.19 seconds
-Job:test1-853124 is running
-Time elapsed 357.38 seconds
-Job:test1-853124 is running
-Time elapsed 358.58 seconds
-Job:test1-853124 is running
-Time elapsed 359.77 seconds
-Job:test1-853124 is running
-Time elapsed 360.96 seconds
-Job:test1-853124 is running
-Time elapsed 362.16 seconds
-Job:test1-853124 is running
-Time elapsed 363.35 seconds
-Job:test1-853124 is running
-Time elapsed 364.54 seconds
-Job:test1-853124 is running
-Time elapsed 365.72 seconds
-Job:test1-853124 is running
-Time elapsed 366.91 seconds
-Job:test1-853124 is running
-Time elapsed 368.11 seconds
-Job:test1-853124 is running
-Time elapsed 369.3 seconds
-Job:test1-853124 is running
-Time elapsed 370.49 seconds
-Job:test1-853124 is running
-Time elapsed 371.96 seconds
-Job:test1-853124 is running
-Time elapsed 373.15 seconds
-Job:test1-853124 is running
-Time elapsed 374.34 seconds
-Job:test1-853124 is running
-Time elapsed 375.53 seconds
-Job:test1-853124 is running
-Time elapsed 376.72 seconds
-Job:test1-853124 is running
-Time elapsed 377.91 seconds
-Job:test1-853124 is running
-Time elapsed 379.1 seconds
-Job:test1-853124 is running
-Time elapsed 380.29 seconds
-Job:test1-853124 is running
-Time elapsed 381.48 seconds
-Job:test1-853124 is running
-Time elapsed 382.67 seconds
-Job:test1-853124 is running
-Time elapsed 383.86 seconds
-Job:test1-853124 is running
-Time elapsed 385.01 seconds
-Job:test1-853124 is running
-Time elapsed 386.18 seconds
-Job:test1-853124 is running
-Time elapsed 387.38 seconds
-Job:test1-853124 is running
-Time elapsed 388.57 seconds
-Job:test1-853124 is running
-Time elapsed 389.76 seconds
-Job:test1-853124 is running
-Time elapsed 390.95 seconds
-Job:test1-853124 is running
-Time elapsed 392.12 seconds
-Job:test1-853124 is running
-Time elapsed 393.31 seconds
-Job:test1-853124 is running
-Time elapsed 394.5 seconds
-Job:test1-853124 is running
-Time elapsed 395.69 seconds
-Job:test1-853124 is running
-Time elapsed 396.87 seconds
-Job:test1-853124 is running
-Time elapsed 398.05 seconds
-Job:test1-853124 is running
-Time elapsed 399.24 seconds
-Job:test1-853124 is running
-Time elapsed 400.44 seconds
-Job:test1-853124 is running
-Time elapsed 401.63 seconds
-Job:test1-853124 is running
-Time elapsed 403.09 seconds
-Job:test1-853124 is running
-Time elapsed 404.28 seconds
-Job:test1-853124 is running
-Time elapsed 405.47 seconds
-Job:test1-853124 is running
-Time elapsed 406.66 seconds
-Job:test1-853124 is running
-Time elapsed 407.8 seconds
-Job:test1-853124 is not_running dscf.out failed
-JOB ERROR: please check input and output files and resubmit
-Terminating the programme
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 2
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 4.77 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 3
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 6.03 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 4
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 7.29 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 5
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 8.58 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 6
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 9.8 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 7
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 10.97 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 8
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 12.2 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 9
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 13.42 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 10
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 14.63 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 11
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 15.92 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 12
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 17.13 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 13
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 18.32 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 14
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 19.55 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 15
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 20.81 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 16
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 22.02 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 17
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 23.28 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 18
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 24.49 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 19
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 25.68 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 20
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 26.87 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 21
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 28.07 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 22
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 29.25 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 23
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 30.46 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 24
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 31.62 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 25
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 33.92 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 26
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 35.12 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 27
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 36.3 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 28
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 37.47 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 29
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 38.63 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 30
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 39.78 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 31
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 41.05 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 32
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 42.21 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 33
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 43.37 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 34
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 44.53 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 35
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 45.71 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 36
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 46.91 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 37
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 48.16 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 38
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 49.39 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 39
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 50.56 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 40
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 51.69 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 41
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 52.86 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 42
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 54.07 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 43
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 55.21 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 44
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 56.42 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 45
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 57.63 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 46
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 58.8 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 47
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 59.95 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 48
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 61.14 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 49
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 62.29 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 50
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 63.46 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 51
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 65.61 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 52
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 66.8 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 53
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 68.04 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 54
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 69.27 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 55
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 70.45 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 56
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 71.64 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 57
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 72.79 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 58
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 73.97 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 59
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 75.14 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 60
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 76.35 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 61
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 77.56 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 62
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 78.75 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 63
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 79.93 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 64
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 81.12 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 65
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 82.29 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 66
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 83.47 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 67
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 84.66 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 68
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 85.91 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 69
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 87.08 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 70
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 88.22 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 71
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 89.43 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 72
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 90.69 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 73
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 91.95 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 74
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 93.15 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 75
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 94.29 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 76
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 95.51 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 77
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 97.34 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 78
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 98.49 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 79
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 99.67 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 80
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 100.92 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 81
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 102.15 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 82
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 103.32 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 83
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 104.55 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 84
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 105.74 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 85
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 106.88 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 86
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 108.03 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 87
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 109.19 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 88
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 110.36 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 89
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 111.59 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 90
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 112.75 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 91
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 113.92 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 92
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 115.13 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 93
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 116.32 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 94
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 117.49 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 95
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 118.65 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 96
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 119.86 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 97
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 121.03 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 98
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 122.25 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 99
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 123.5 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 100
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 124.76 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 101
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 125.96 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 102
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 127.14 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 103
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 129.05 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 104
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 130.25 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 105
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 131.53 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 106
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 132.8 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 107
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 134.03 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 108
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 135.18 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 109
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 136.36 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 110
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 137.53 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 111
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 138.8 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 112
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 140.03 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 113
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 141.22 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 114
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 142.37 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 115
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 143.57 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 116
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 144.76 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 117
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 145.97 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 118
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 147.15 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 119
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 148.36 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 120
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 149.53 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 121
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 150.7 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 122
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 151.94 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 123
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 153.14 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 124
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 154.31 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 125
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 155.49 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 126
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 156.63 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 127
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 157.81 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 128
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 159.02 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 129
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 160.77 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 130
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 162.0 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 131
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 163.23 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 132
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 164.5 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 133
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 165.72 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 134
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 166.9 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 135
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 168.12 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 136
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 169.41 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 137
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 170.66 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 138
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 171.92 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 139
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 173.16 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 140
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 174.36 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 141
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 175.57 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 142
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 176.76 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 143
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 178.0 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 144
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 179.22 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 145
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 180.48 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 146
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 181.73 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 147
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 182.94 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 148
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 184.16 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 149
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 185.38 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 150
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 186.59 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 151
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 187.82 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 152
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 188.96 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 153
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 190.11 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 154
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 192.48 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 155
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 193.69 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 156
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 194.86 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 157
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 196.02 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 158
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 197.25 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 159
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 198.44 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 160
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 199.61 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 161
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 200.8 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 162
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 202.03 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 163
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 203.21 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 164
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 204.42 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 165
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 205.62 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 166
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 206.85 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 167
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 208.09 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 168
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 209.25 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 169
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 210.46 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 170
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 211.68 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 171
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 212.92 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 172
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 214.19 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 173
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 215.44 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 174
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 216.68 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 175
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 217.9 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 176
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 219.12 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 177
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 220.28 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 178
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 221.48 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 179
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 224.17 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 180
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 225.42 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 181
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 226.62 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 182
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 227.83 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 183
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 229.02 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 184
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 230.18 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 185
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 231.36 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 186
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 232.6 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 187
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 233.8 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 188
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 234.96 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 189
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 236.11 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 190
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 237.32 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 191
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 238.51 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 192
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 239.72 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 193
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 240.87 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 194
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 242.06 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 195
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 243.26 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 196
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 244.43 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 197
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 245.67 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 198
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 246.9 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 199
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 248.12 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 200
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 249.3 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 201
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 250.48 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 202
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 251.63 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 203
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 252.81 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 204
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 253.97 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 205
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 255.73 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 206
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 256.89 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 207
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 258.08 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 208
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 259.29 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 209
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 260.48 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 210
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 261.66 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 211
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 262.83 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 212
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 263.99 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 213
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 265.17 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 214
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 266.33 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 215
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 267.52 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 216
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 268.67 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 217
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 269.83 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 218
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 270.98 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 219
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 272.19 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 220
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 273.4 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 221
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 274.56 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 222
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
+Time elapsed 275.75 seconds
+[84615] Job:test1-853162 is not_running dscf.out need_restart
+RESTARTING THE JOB - 223
+There was an error running the Slurm sbatch command.
+The command was:
+'/usr/bin/sbatch -e 0restart_slurm_script.e%A -o 0restart_slurm_script.o%A 0restart_slurm_script 2>&1'
+and the output was:
+'sbatch: error: Unable to open file 0restart_slurm_script
+'
+
+[3] job_id=853162, stderr_dir_path=..
