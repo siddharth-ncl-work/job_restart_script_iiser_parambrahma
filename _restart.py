@@ -5,7 +5,7 @@ import time
 import sys
 
 
-def qFlag(job_name):
+def qFlag():
   q_flag='not_defined'
   p=subprocess.Popen(['qstat'],stdout=PIPE,stderr=PIPE)
   output=p.communicate()[0]
@@ -15,58 +15,52 @@ def qFlag(job_name):
     q_flag='not_running'
   return q_flag
 
-def jobDirFlag(job_dir_path,job_id,job_name):
-  if not os.path.isdir(job_dir_path):
-    job_dir_path='../{0}'.format(job_name)
-    if not os.path.isdir(job_dir_path):
-      return 'dir_not_present'
-  if not os.listdir(job_dir_path):
-    return 'dir_empty'
+def jobDirFlag():
   dscf_file_path=os.path.join(job_dir_path,'dscf.out')
-  if not os.path.isfile(dscf_file_path):
-    return None
-  else:
+  if os.path.isfile(dscf_file_path):
     if '****  dscf : all done  ****' in open(dscf_file_path,'r').read():
       return 'converged'
-    else:
-      stderr_flag=stderrFlag(job_id)
-      return stderr_flag
-  return 'job_dir_flag_not_defined'
+  
+  stderr_flag=stderrFlag()
+  return stderr_flag
 
-def stderrFlag(job_id):
+
+def stderrFlag():
   stderr_file_name=None
-  for file_name in os.listdir('..'):
+  for file_name in os.listdir(stderr_dir_path):
     if 'e{0}'.format(job_id) in file_name:
       stderr_file_name=file_name
-  stderr_file_path='../{0}'.format(stderr_file_name)
+  if stderr_file_name is None:
+    return 'failed'
+  stderr_file_path='{0}/{1}'.format(stderr_dir_path,stderr_file_name)
   stderr_file=open(stderr_file_path,'r')
   stderr=stderr_file.read()
   stderr_file.close()
   if 'DUE TO TIME LIMIT' in stderr:
-    return 'running'
+    return 'need_restart'
   else:
     return 'failed'
 
-def restartJob(restart_script_name):
+def restartJob():
   restart_script_path='../{0}'.format(restart_script_name)
-  subprocess.Popen(['qsub',restart_script_path])
+  p=subprocess.Popen(['qsub',restart_script_path],stdout=PIPE,stderr=PIPE)
+  output=p.communicate()[0].strip().split('\n')[0]
+  return output  
 
-def checkJob(job_name,job_dir_path,restart_script_name,job_id):
+def checkJob():
+  global job_name,job_dir_path,restart_script_name,job_id,stderr_dir_path
   stop_flag=False
-  q_flag=qFlag(job_name)
-  job_dir_flag=jobDirFlag(job_dir_path,job_id,job_name)
+  q_flag=qFlag()
+  job_dir_flag=jobDirFlag()
   if q_flag=='not_running':
-    print 'Job:{0} is {1} dscf.out {2}'.format(job_name,q_flag,job_dir_flag)
+    print 'Job:{0}-{1} is {2} dscf.out {3}'.format(job_name,job_id,q_flag,job_dir_flag)
     stop_flag=True
-    if job_dir_flag=='dir_not_present':
-      print 'job directory: {0} is not present'.format(job_dir_path)
-    elif job_dir_flag=='dir_empty':
-      print 'job directory: {0} is empty'.format(job_dir_path)
-    elif job_dir_flag is None:
-      print 'File dscf.out is not present'
-    elif job_dir_flag.lower()=='running':
+    if job_dir_flag.lower()=='need_restart':
       print 'RESTARTING THE JOB'
-      restartJob(restart_script_name)
+      out=restartJob()
+      job_id=out
+      stderr_dir_path='.'
+      print 'job_id={0}, stderr_dir_path={1}'.format(job_id,stderr_dir_path)
       stop_flag=False
     elif job_dir_flag.lower()=='converged':
       print 'JOB FINISHED'
@@ -76,7 +70,7 @@ def checkJob(job_name,job_dir_path,restart_script_name,job_id):
       print 'unknown job_dir_flag {0}'.format(job_dir_flag)
   elif q_flag=='running':
     stop_flag=False
-    print 'Job:{0} is {1}'.format(job_name,q_flag)
+    print 'Job:{0}-{1} is {2}'.format(job_name,job_id,q_flag)
     if job_dir_flag.lower()=='converged':
       print 'JOB FINISHED'
       stop_flag=True
@@ -86,15 +80,16 @@ start_time=time.time()
 print(sys.argv)
 job_id=sys.argv[1]
 job_name=sys.argv[2]
-job_dir_path='../tmp/{0}'.format(job_name)
+job_dir_path='../{0}'.format(job_name)
 restart_script_name=sys.argv[3]
+stderr_dir_path='..'
 interval=1
 stop_flag=False
 while not stop_flag:
   time.sleep(interval)
   elapsed_time=round(time.time()-start_time,2)
   print 'Time elapsed {0} seconds'.format(elapsed_time)
-  stop_flag=checkJob(job_name,job_dir_path,restart_script_name,job_id)
+  stop_flag=checkJob()
   if stop_flag:
     print('Terminating the programme')
 

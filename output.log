@@ -1,25 +1,695 @@
-['_restart.py', '852987', 'water', '/scratch/kvanka/siddharth/restart_script']
+['_restart.py', '853010', 'test1', 'restart_slurm_script']
 Time elapsed 1.0 seconds
-Job:water is running
-Time elapsed 2.2 seconds
-Job:water is running
-Time elapsed 3.36 seconds
-Job:water is running
-Time elapsed 4.52 seconds
-Job:water is running
-Time elapsed 5.66 seconds
-Job:water is running
-Time elapsed 6.79 seconds
-Job:water is running
-Time elapsed 7.94 seconds
-Job:water is running
-Time elapsed 9.05 seconds
-Job:water is running
-Time elapsed 10.18 seconds
-Job:water is running
-Time elapsed 11.31 seconds
-Job:water is running
-Time elapsed 12.41 seconds
-Job:water is running
-JOB FINISHED
+Job:test1-853010 is not_running dscf.out need_restart
+RESTARTING THE JOB
+job_id=853124, stderr_dir_path=.
+Time elapsed 2.33 seconds
+Job:test1-853124 is running
+Time elapsed 3.53 seconds
+Job:test1-853124 is running
+Time elapsed 4.72 seconds
+Job:test1-853124 is running
+Time elapsed 5.91 seconds
+Job:test1-853124 is running
+Time elapsed 7.1 seconds
+Job:test1-853124 is running
+Time elapsed 8.29 seconds
+Job:test1-853124 is running
+Time elapsed 9.48 seconds
+Job:test1-853124 is running
+Time elapsed 10.68 seconds
+Job:test1-853124 is running
+Time elapsed 11.88 seconds
+Job:test1-853124 is running
+Time elapsed 13.07 seconds
+Job:test1-853124 is running
+Time elapsed 14.26 seconds
+Job:test1-853124 is running
+Time elapsed 15.45 seconds
+Job:test1-853124 is running
+Time elapsed 16.64 seconds
+Job:test1-853124 is running
+Time elapsed 17.78 seconds
+Job:test1-853124 is running
+Time elapsed 18.97 seconds
+Job:test1-853124 is running
+Time elapsed 20.16 seconds
+Job:test1-853124 is running
+Time elapsed 21.34 seconds
+Job:test1-853124 is running
+Time elapsed 22.53 seconds
+Job:test1-853124 is running
+Time elapsed 23.72 seconds
+Job:test1-853124 is running
+Time elapsed 24.91 seconds
+Job:test1-853124 is running
+Time elapsed 26.11 seconds
+Job:test1-853124 is running
+Time elapsed 27.84 seconds
+Job:test1-853124 is running
+Time elapsed 29.03 seconds
+Job:test1-853124 is running
+Time elapsed 30.23 seconds
+Job:test1-853124 is running
+Time elapsed 31.42 seconds
+Job:test1-853124 is running
+Time elapsed 32.63 seconds
+Job:test1-853124 is running
+Time elapsed 33.78 seconds
+Job:test1-853124 is running
+Time elapsed 34.9 seconds
+Job:test1-853124 is running
+Time elapsed 36.04 seconds
+Job:test1-853124 is running
+Time elapsed 37.17 seconds
+Job:test1-853124 is running
+Time elapsed 38.36 seconds
+Job:test1-853124 is running
+Time elapsed 39.5 seconds
+Job:test1-853124 is running
+Time elapsed 40.69 seconds
+Job:test1-853124 is running
+Time elapsed 41.88 seconds
+Job:test1-853124 is running
+Time elapsed 43.07 seconds
+Job:test1-853124 is running
+Time elapsed 44.22 seconds
+Job:test1-853124 is running
+Time elapsed 45.43 seconds
+Job:test1-853124 is running
+Time elapsed 46.62 seconds
+Job:test1-853124 is running
+Time elapsed 47.8 seconds
+Job:test1-853124 is running
+Time elapsed 49.0 seconds
+Job:test1-853124 is running
+Time elapsed 50.19 seconds
+Job:test1-853124 is running
+Time elapsed 51.38 seconds
+Job:test1-853124 is running
+Time elapsed 52.5 seconds
+Job:test1-853124 is running
+Time elapsed 53.68 seconds
+Job:test1-853124 is running
+Time elapsed 54.84 seconds
+Job:test1-853124 is running
+Time elapsed 55.99 seconds
+Job:test1-853124 is running
+Time elapsed 57.18 seconds
+Job:test1-853124 is running
+Time elapsed 59.25 seconds
+Job:test1-853124 is running
+Time elapsed 60.45 seconds
+Job:test1-853124 is running
+Time elapsed 61.64 seconds
+Job:test1-853124 is running
+Time elapsed 62.84 seconds
+Job:test1-853124 is running
+Time elapsed 64.02 seconds
+Job:test1-853124 is running
+Time elapsed 65.2 seconds
+Job:test1-853124 is running
+Time elapsed 66.4 seconds
+Job:test1-853124 is running
+Time elapsed 67.59 seconds
+Job:test1-853124 is running
+Time elapsed 68.76 seconds
+Job:test1-853124 is running
+Time elapsed 69.93 seconds
+Job:test1-853124 is running
+Time elapsed 71.12 seconds
+Job:test1-853124 is running
+Time elapsed 72.32 seconds
+Job:test1-853124 is running
+Time elapsed 73.47 seconds
+Job:test1-853124 is running
+Time elapsed 74.64 seconds
+Job:test1-853124 is running
+Time elapsed 75.83 seconds
+Job:test1-853124 is running
+Time elapsed 76.95 seconds
+Job:test1-853124 is running
+Time elapsed 78.11 seconds
+Job:test1-853124 is running
+Time elapsed 79.3 seconds
+Job:test1-853124 is running
+Time elapsed 80.44 seconds
+Job:test1-853124 is running
+Time elapsed 81.63 seconds
+Job:test1-853124 is running
+Time elapsed 82.82 seconds
+Job:test1-853124 is running
+Time elapsed 84.01 seconds
+Job:test1-853124 is running
+Time elapsed 85.2 seconds
+Job:test1-853124 is running
+Time elapsed 86.38 seconds
+Job:test1-853124 is running
+Time elapsed 87.57 seconds
+Job:test1-853124 is running
+Time elapsed 88.7 seconds
+Job:test1-853124 is running
+Time elapsed 90.72 seconds
+Job:test1-853124 is running
+Time elapsed 91.87 seconds
+Job:test1-853124 is running
+Time elapsed 93.02 seconds
+Job:test1-853124 is running
+Time elapsed 94.22 seconds
+Job:test1-853124 is running
+Time elapsed 95.41 seconds
+Job:test1-853124 is running
+Time elapsed 96.55 seconds
+Job:test1-853124 is running
+Time elapsed 97.74 seconds
+Job:test1-853124 is running
+Time elapsed 98.9 seconds
+Job:test1-853124 is running
+Time elapsed 100.09 seconds
+Job:test1-853124 is running
+Time elapsed 101.19 seconds
+Job:test1-853124 is running
+Time elapsed 102.28 seconds
+Job:test1-853124 is running
+Time elapsed 103.39 seconds
+Job:test1-853124 is running
+Time elapsed 104.49 seconds
+Job:test1-853124 is running
+Time elapsed 105.69 seconds
+Job:test1-853124 is running
+Time elapsed 106.87 seconds
+Job:test1-853124 is running
+Time elapsed 108.06 seconds
+Job:test1-853124 is running
+Time elapsed 109.2 seconds
+Job:test1-853124 is running
+Time elapsed 110.31 seconds
+Job:test1-853124 is running
+Time elapsed 111.4 seconds
+Job:test1-853124 is running
+Time elapsed 112.59 seconds
+Job:test1-853124 is running
+Time elapsed 113.68 seconds
+Job:test1-853124 is running
+Time elapsed 114.86 seconds
+Job:test1-853124 is running
+Time elapsed 115.96 seconds
+Job:test1-853124 is running
+Time elapsed 117.06 seconds
+Job:test1-853124 is running
+Time elapsed 118.25 seconds
+Job:test1-853124 is running
+Time elapsed 119.35 seconds
+Job:test1-853124 is running
+Time elapsed 120.49 seconds
+Job:test1-853124 is running
+Time elapsed 122.18 seconds
+Job:test1-853124 is running
+Time elapsed 123.37 seconds
+Job:test1-853124 is running
+Time elapsed 124.55 seconds
+Job:test1-853124 is running
+Time elapsed 125.73 seconds
+Job:test1-853124 is running
+Time elapsed 126.91 seconds
+Job:test1-853124 is running
+Time elapsed 128.04 seconds
+Job:test1-853124 is running
+Time elapsed 129.18 seconds
+Job:test1-853124 is running
+Time elapsed 130.29 seconds
+Job:test1-853124 is running
+Time elapsed 131.48 seconds
+Job:test1-853124 is running
+Time elapsed 132.58 seconds
+Job:test1-853124 is running
+Time elapsed 133.68 seconds
+Job:test1-853124 is running
+Time elapsed 134.79 seconds
+Job:test1-853124 is running
+Time elapsed 135.89 seconds
+Job:test1-853124 is running
+Time elapsed 137.01 seconds
+Job:test1-853124 is running
+Time elapsed 138.14 seconds
+Job:test1-853124 is running
+Time elapsed 139.33 seconds
+Job:test1-853124 is running
+Time elapsed 140.45 seconds
+Job:test1-853124 is running
+Time elapsed 141.63 seconds
+Job:test1-853124 is running
+Time elapsed 142.79 seconds
+Job:test1-853124 is running
+Time elapsed 143.99 seconds
+Job:test1-853124 is running
+Time elapsed 145.09 seconds
+Job:test1-853124 is running
+Time elapsed 146.2 seconds
+Job:test1-853124 is running
+Time elapsed 147.31 seconds
+Job:test1-853124 is running
+Time elapsed 148.41 seconds
+Job:test1-853124 is running
+Time elapsed 149.52 seconds
+Job:test1-853124 is running
+Time elapsed 150.71 seconds
+Job:test1-853124 is running
+Time elapsed 151.86 seconds
+Job:test1-853124 is running
+Time elapsed 153.66 seconds
+Job:test1-853124 is running
+Time elapsed 154.83 seconds
+Job:test1-853124 is running
+Time elapsed 155.95 seconds
+Job:test1-853124 is running
+Time elapsed 157.05 seconds
+Job:test1-853124 is running
+Time elapsed 158.23 seconds
+Job:test1-853124 is running
+Time elapsed 159.33 seconds
+Job:test1-853124 is running
+Time elapsed 160.45 seconds
+Job:test1-853124 is running
+Time elapsed 161.63 seconds
+Job:test1-853124 is running
+Time elapsed 162.72 seconds
+Job:test1-853124 is running
+Time elapsed 163.82 seconds
+Job:test1-853124 is running
+Time elapsed 164.95 seconds
+Job:test1-853124 is running
+Time elapsed 166.05 seconds
+Job:test1-853124 is running
+Time elapsed 167.24 seconds
+Job:test1-853124 is running
+Time elapsed 168.36 seconds
+Job:test1-853124 is running
+Time elapsed 169.54 seconds
+Job:test1-853124 is running
+Time elapsed 170.67 seconds
+Job:test1-853124 is running
+Time elapsed 171.78 seconds
+Job:test1-853124 is running
+Time elapsed 172.98 seconds
+Job:test1-853124 is running
+Time elapsed 174.17 seconds
+Job:test1-853124 is running
+Time elapsed 175.35 seconds
+Job:test1-853124 is running
+Time elapsed 176.44 seconds
+Job:test1-853124 is running
+Time elapsed 177.53 seconds
+Job:test1-853124 is running
+Time elapsed 178.62 seconds
+Job:test1-853124 is running
+Time elapsed 179.76 seconds
+Job:test1-853124 is running
+Time elapsed 180.87 seconds
+Job:test1-853124 is running
+Time elapsed 181.96 seconds
+Job:test1-853124 is running
+Time elapsed 183.07 seconds
+Job:test1-853124 is running
+Time elapsed 185.19 seconds
+Job:test1-853124 is running
+Time elapsed 186.35 seconds
+Job:test1-853124 is running
+Time elapsed 187.44 seconds
+Job:test1-853124 is running
+Time elapsed 188.55 seconds
+Job:test1-853124 is running
+Time elapsed 189.74 seconds
+Job:test1-853124 is running
+Time elapsed 190.89 seconds
+Job:test1-853124 is running
+Time elapsed 192.03 seconds
+Job:test1-853124 is running
+Time elapsed 193.12 seconds
+Job:test1-853124 is running
+Time elapsed 194.29 seconds
+Job:test1-853124 is running
+Time elapsed 195.44 seconds
+Job:test1-853124 is running
+Time elapsed 196.55 seconds
+Job:test1-853124 is running
+Time elapsed 197.74 seconds
+Job:test1-853124 is running
+Time elapsed 198.86 seconds
+Job:test1-853124 is running
+Time elapsed 200.04 seconds
+Job:test1-853124 is running
+Time elapsed 201.22 seconds
+Job:test1-853124 is running
+Time elapsed 202.32 seconds
+Job:test1-853124 is running
+Time elapsed 203.5 seconds
+Job:test1-853124 is running
+Time elapsed 204.61 seconds
+Job:test1-853124 is running
+Time elapsed 205.72 seconds
+Job:test1-853124 is running
+Time elapsed 206.88 seconds
+Job:test1-853124 is running
+Time elapsed 207.99 seconds
+Job:test1-853124 is running
+Time elapsed 209.09 seconds
+Job:test1-853124 is running
+Time elapsed 210.18 seconds
+Job:test1-853124 is running
+Time elapsed 211.36 seconds
+Job:test1-853124 is running
+Time elapsed 212.55 seconds
+Job:test1-853124 is running
+Time elapsed 213.69 seconds
+Job:test1-853124 is running
+Time elapsed 214.85 seconds
+Job:test1-853124 is running
+Time elapsed 216.47 seconds
+Job:test1-853124 is running
+Time elapsed 217.62 seconds
+Job:test1-853124 is running
+Time elapsed 218.71 seconds
+Job:test1-853124 is running
+Time elapsed 219.82 seconds
+Job:test1-853124 is running
+Time elapsed 221.0 seconds
+Job:test1-853124 is running
+Time elapsed 222.16 seconds
+Job:test1-853124 is running
+Time elapsed 223.3 seconds
+Job:test1-853124 is running
+Time elapsed 224.39 seconds
+Job:test1-853124 is running
+Time elapsed 225.48 seconds
+Job:test1-853124 is running
+Time elapsed 226.61 seconds
+Job:test1-853124 is running
+Time elapsed 227.8 seconds
+Job:test1-853124 is running
+Time elapsed 228.92 seconds
+Job:test1-853124 is running
+Time elapsed 230.11 seconds
+Job:test1-853124 is running
+Time elapsed 231.24 seconds
+Job:test1-853124 is running
+Time elapsed 232.35 seconds
+Job:test1-853124 is running
+Time elapsed 233.44 seconds
+Job:test1-853124 is running
+Time elapsed 234.55 seconds
+Job:test1-853124 is running
+Time elapsed 235.69 seconds
+Job:test1-853124 is running
+Time elapsed 236.87 seconds
+Job:test1-853124 is running
+Time elapsed 237.96 seconds
+Job:test1-853124 is running
+Time elapsed 239.12 seconds
+Job:test1-853124 is running
+Time elapsed 240.26 seconds
+Job:test1-853124 is running
+Time elapsed 241.38 seconds
+Job:test1-853124 is running
+Time elapsed 242.47 seconds
+Job:test1-853124 is running
+Time elapsed 243.62 seconds
+Job:test1-853124 is running
+Time elapsed 244.75 seconds
+Job:test1-853124 is running
+Time elapsed 245.9 seconds
+Job:test1-853124 is running
+Time elapsed 247.48 seconds
+Job:test1-853124 is running
+Time elapsed 248.64 seconds
+Job:test1-853124 is running
+Time elapsed 249.82 seconds
+Job:test1-853124 is running
+Time elapsed 251.01 seconds
+Job:test1-853124 is running
+Time elapsed 252.16 seconds
+Job:test1-853124 is running
+Time elapsed 253.29 seconds
+Job:test1-853124 is running
+Time elapsed 254.38 seconds
+Job:test1-853124 is running
+Time elapsed 255.49 seconds
+Job:test1-853124 is running
+Time elapsed 256.64 seconds
+Job:test1-853124 is running
+Time elapsed 257.76 seconds
+Job:test1-853124 is running
+Time elapsed 258.87 seconds
+Job:test1-853124 is running
+Time elapsed 260.05 seconds
+Job:test1-853124 is running
+Time elapsed 261.18 seconds
+Job:test1-853124 is running
+Time elapsed 262.28 seconds
+Job:test1-853124 is running
+Time elapsed 263.4 seconds
+Job:test1-853124 is running
+Time elapsed 264.59 seconds
+Job:test1-853124 is running
+Time elapsed 265.69 seconds
+Job:test1-853124 is running
+Time elapsed 266.82 seconds
+Job:test1-853124 is running
+Time elapsed 267.92 seconds
+Job:test1-853124 is running
+Time elapsed 269.02 seconds
+Job:test1-853124 is running
+Time elapsed 270.21 seconds
+Job:test1-853124 is running
+Time elapsed 271.4 seconds
+Job:test1-853124 is running
+Time elapsed 272.53 seconds
+Job:test1-853124 is running
+Time elapsed 273.64 seconds
+Job:test1-853124 is running
+Time elapsed 274.83 seconds
+Job:test1-853124 is running
+Time elapsed 276.02 seconds
+Job:test1-853124 is running
+Time elapsed 277.22 seconds
+Job:test1-853124 is running
+Time elapsed 278.48 seconds
+Job:test1-853124 is running
+Time elapsed 279.66 seconds
+Job:test1-853124 is running
+Time elapsed 280.8 seconds
+Job:test1-853124 is running
+Time elapsed 281.93 seconds
+Job:test1-853124 is running
+Time elapsed 283.04 seconds
+Job:test1-853124 is running
+Time elapsed 284.13 seconds
+Job:test1-853124 is running
+Time elapsed 285.26 seconds
+Job:test1-853124 is running
+Time elapsed 286.35 seconds
+Job:test1-853124 is running
+Time elapsed 287.54 seconds
+Job:test1-853124 is running
+Time elapsed 288.74 seconds
+Job:test1-853124 is running
+Time elapsed 289.93 seconds
+Job:test1-853124 is running
+Time elapsed 291.13 seconds
+Job:test1-853124 is running
+Time elapsed 292.32 seconds
+Job:test1-853124 is running
+Time elapsed 293.51 seconds
+Job:test1-853124 is running
+Time elapsed 294.7 seconds
+Job:test1-853124 is running
+Time elapsed 295.9 seconds
+Job:test1-853124 is running
+Time elapsed 297.05 seconds
+Job:test1-853124 is running
+Time elapsed 298.24 seconds
+Job:test1-853124 is running
+Time elapsed 299.43 seconds
+Job:test1-853124 is running
+Time elapsed 300.6 seconds
+Job:test1-853124 is running
+Time elapsed 301.79 seconds
+Job:test1-853124 is running
+Time elapsed 302.98 seconds
+Job:test1-853124 is running
+Time elapsed 304.17 seconds
+Job:test1-853124 is running
+Time elapsed 305.36 seconds
+Job:test1-853124 is running
+Time elapsed 306.52 seconds
+Job:test1-853124 is running
+Time elapsed 307.72 seconds
+Job:test1-853124 is running
+Time elapsed 309.49 seconds
+Job:test1-853124 is running
+Time elapsed 310.68 seconds
+Job:test1-853124 is running
+Time elapsed 311.88 seconds
+Job:test1-853124 is running
+Time elapsed 313.08 seconds
+Job:test1-853124 is running
+Time elapsed 314.26 seconds
+Job:test1-853124 is running
+Time elapsed 315.45 seconds
+Job:test1-853124 is running
+Time elapsed 316.61 seconds
+Job:test1-853124 is running
+Time elapsed 317.78 seconds
+Job:test1-853124 is running
+Time elapsed 318.93 seconds
+Job:test1-853124 is running
+Time elapsed 320.12 seconds
+Job:test1-853124 is running
+Time elapsed 321.31 seconds
+Job:test1-853124 is running
+Time elapsed 322.5 seconds
+Job:test1-853124 is running
+Time elapsed 323.7 seconds
+Job:test1-853124 is running
+Time elapsed 324.89 seconds
+Job:test1-853124 is running
+Time elapsed 326.08 seconds
+Job:test1-853124 is running
+Time elapsed 327.27 seconds
+Job:test1-853124 is running
+Time elapsed 328.46 seconds
+Job:test1-853124 is running
+Time elapsed 329.65 seconds
+Job:test1-853124 is running
+Time elapsed 330.84 seconds
+Job:test1-853124 is running
+Time elapsed 332.03 seconds
+Job:test1-853124 is running
+Time elapsed 333.23 seconds
+Job:test1-853124 is running
+Time elapsed 334.42 seconds
+Job:test1-853124 is running
+Time elapsed 335.6 seconds
+Job:test1-853124 is running
+Time elapsed 336.79 seconds
+Job:test1-853124 is running
+Time elapsed 337.98 seconds
+Job:test1-853124 is running
+Time elapsed 339.18 seconds
+Job:test1-853124 is running
+Time elapsed 340.83 seconds
+Job:test1-853124 is running
+Time elapsed 342.01 seconds
+Job:test1-853124 is running
+Time elapsed 343.21 seconds
+Job:test1-853124 is running
+Time elapsed 344.4 seconds
+Job:test1-853124 is running
+Time elapsed 345.6 seconds
+Job:test1-853124 is running
+Time elapsed 346.79 seconds
+Job:test1-853124 is running
+Time elapsed 347.95 seconds
+Job:test1-853124 is running
+Time elapsed 349.1 seconds
+Job:test1-853124 is running
+Time elapsed 350.23 seconds
+Job:test1-853124 is running
+Time elapsed 351.43 seconds
+Job:test1-853124 is running
+Time elapsed 352.62 seconds
+Job:test1-853124 is running
+Time elapsed 353.81 seconds
+Job:test1-853124 is running
+Time elapsed 355.0 seconds
+Job:test1-853124 is running
+Time elapsed 356.19 seconds
+Job:test1-853124 is running
+Time elapsed 357.38 seconds
+Job:test1-853124 is running
+Time elapsed 358.58 seconds
+Job:test1-853124 is running
+Time elapsed 359.77 seconds
+Job:test1-853124 is running
+Time elapsed 360.96 seconds
+Job:test1-853124 is running
+Time elapsed 362.16 seconds
+Job:test1-853124 is running
+Time elapsed 363.35 seconds
+Job:test1-853124 is running
+Time elapsed 364.54 seconds
+Job:test1-853124 is running
+Time elapsed 365.72 seconds
+Job:test1-853124 is running
+Time elapsed 366.91 seconds
+Job:test1-853124 is running
+Time elapsed 368.11 seconds
+Job:test1-853124 is running
+Time elapsed 369.3 seconds
+Job:test1-853124 is running
+Time elapsed 370.49 seconds
+Job:test1-853124 is running
+Time elapsed 371.96 seconds
+Job:test1-853124 is running
+Time elapsed 373.15 seconds
+Job:test1-853124 is running
+Time elapsed 374.34 seconds
+Job:test1-853124 is running
+Time elapsed 375.53 seconds
+Job:test1-853124 is running
+Time elapsed 376.72 seconds
+Job:test1-853124 is running
+Time elapsed 377.91 seconds
+Job:test1-853124 is running
+Time elapsed 379.1 seconds
+Job:test1-853124 is running
+Time elapsed 380.29 seconds
+Job:test1-853124 is running
+Time elapsed 381.48 seconds
+Job:test1-853124 is running
+Time elapsed 382.67 seconds
+Job:test1-853124 is running
+Time elapsed 383.86 seconds
+Job:test1-853124 is running
+Time elapsed 385.01 seconds
+Job:test1-853124 is running
+Time elapsed 386.18 seconds
+Job:test1-853124 is running
+Time elapsed 387.38 seconds
+Job:test1-853124 is running
+Time elapsed 388.57 seconds
+Job:test1-853124 is running
+Time elapsed 389.76 seconds
+Job:test1-853124 is running
+Time elapsed 390.95 seconds
+Job:test1-853124 is running
+Time elapsed 392.12 seconds
+Job:test1-853124 is running
+Time elapsed 393.31 seconds
+Job:test1-853124 is running
+Time elapsed 394.5 seconds
+Job:test1-853124 is running
+Time elapsed 395.69 seconds
+Job:test1-853124 is running
+Time elapsed 396.87 seconds
+Job:test1-853124 is running
+Time elapsed 398.05 seconds
+Job:test1-853124 is running
+Time elapsed 399.24 seconds
+Job:test1-853124 is running
+Time elapsed 400.44 seconds
+Job:test1-853124 is running
+Time elapsed 401.63 seconds
+Job:test1-853124 is running
+Time elapsed 403.09 seconds
+Job:test1-853124 is running
+Time elapsed 404.28 seconds
+Job:test1-853124 is running
+Time elapsed 405.47 seconds
+Job:test1-853124 is running
+Time elapsed 406.66 seconds
+Job:test1-853124 is running
+Time elapsed 407.8 seconds
+Job:test1-853124 is not_running dscf.out failed
+JOB ERROR: please check input and output files and resubmit
 Terminating the programme
